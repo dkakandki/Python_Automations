@@ -1,5 +1,5 @@
 import qrcode
-data = 'https://github.com/dkakandki'
+data = str(input('please enter your data'))
 qr = qrcode.QRCode(
     version = 1,
     border = 10,
